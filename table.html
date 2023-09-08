@@ -4,48 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <style>
-        table, td, th {
-            border: 2px solid black;
-        }
-        th, td {
-            width: 70px;
-            height: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <table>
-        <caption>
+<body class="main_body">
+    <table class="second_table">
+        <caption class="caption">
             My Table 
         </caption>
         <tr>
-            <td colspan="2" style="background: grey;">1</td>
-            <td style="background: rgb(75, 66, 14);">3</td>
-            <td style="background: rgb(75, 66, 14);">4</td>
-            <td style="background: rgb(75, 66, 14);">5</td>
-            <td rowspan="3" style="background: rgb(0, 240, 0);">6</td>
+            <td colspan="2" class="grey_cell">1</td>
+            <td class="brown_cell">3</td>
+            <td class="brown_cell">4</td>
+            <td class="brown_cell">5</td>
+            <td rowspan="3" class="light_green_cell">6</td>
         </tr>
         <tr>
-            <td rowspan="2" style="background: rgb(0, 48, 0);">7</td>
-            <td style="background: rgb(75, 66, 14);">8</td>
-            <td colspan="3" rowspan="2" style="background: yellow;">9</td>
+            <td rowspan="2" class="green_cell">7</td>
+            <td class="brown_cell">8</td>
+            <td colspan="3" rowspan="2" class="yellow_cell">9</td>
         </tr>
         <tr>
-            <td style="background: rgb(75, 66, 14);">14</td>
+            <td class="brown_cell">14</td>
         </tr>
         <tr>
-            <td colspan="3" rowspan="2" style="background: blue;">19</td>
-            <td style="background: rgb(75, 66, 14);">22</td>
-            <td style="background: rgb(75, 66, 14);">23</td>
-            <td rowspan="2" style="background: rgb(0, 48, 0);">24</td>
+            <td colspan="3" rowspan="2" class="blue_cell">19</td>
+            <td class="brown_cell">22</td>
+            <td class="brown_cell">23</td>
+            <td rowspan="2" class="green_cell">24</td>
         </tr>
         <tr>
-            <td colspan="2" style="background:grey;">28</td>
+            <td colspan="2" class="grey_cell">28</td>
         </tr>
     </table>
-    <div style="margin: 15px;">
-        <a href="../Lesson_1/index.html" target="_blank">Go to Main</a>
+    <div class="link_container">
+        <a href="../HW4/index.html" target="_blank">Go to Main</a>
     </div>
 </body>
 </html>
